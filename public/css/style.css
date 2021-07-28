@@ -1,0 +1,1009 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    min-height: 100vh;
+    background-image: url(../img/template4.png);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.descricao-banner{
+    width: 56%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.texto{
+    font-size: 4rem;
+    font-family: 'Dosis';
+    font-weight: 300;
+    width: 60%;
+    text-align: center;
+    color: #636363;
+    padding-top: 2rem;
+}
+.texto strong{
+    color: #595959;
+    font-weight: 600;
+}
+.informacao{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #fd5c6312;
+    flex-wrap: wrap;
+}
+.descricao-informacao{
+    width: 40%;
+}
+.descricao-informacao .title{
+    font-family: 'Dosis';
+    font-size: 2.5rem;
+    padding-bottom: 0rem;
+    color: #ab3a3a;
+}
+.descricao-informacao .linha-titulo{
+    justify-content: flex-start;
+    width: 80%;
+}
+.descricao-informacao span{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    color: rgb(108, 108, 108);
+}
+.produtos{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    flex-direction: column;
+    padding: 6rem 0;
+}
+.bloco-produtos{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item-produto{
+    height: 40rem;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 25px #00000017;
+    margin: 0 2rem;
+    border-radius: 0.2rem;
+    transition: all .5s ease;
+}
+.perguntas{
+    width: 40%;
+    margin: 0 2rem;
+}
+.perguntas .accordion .accordion-item button:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+    color: rgb(206, 69, 76)!important;
+    background-color: transparent!important;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%)!important;
+}
+.header-item .bg-item{
+    background-image: url(../img/img03.png);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+.header-item{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+.body-item{
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #f1f1f1;
+    background: white;
+}
+.title-item{
+    padding: 1rem 0;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+.desc-item{
+    color: rgb(108, 108, 108);
+    font-family: 'montserrat';
+}
+.header-vantagem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+}
+.footer-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-bottom-left-radius: 0.2rem;
+    border-bottom-right-radius: 0.2rem;
+}
+.footer-item a{
+    width: 100%;
+    height: 2.5rem;
+    background: #FD5C63;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.2rem;
+    margin: 1rem;
+    font-family: 'Dosis';
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+.footer-item a:hover{
+    background: #df6565;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+.referencias{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fd5c6312;
+    position: relative;
+}
+.referencias::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 840px 900px 0 0;
+    border-color: #fff transparent transparent transparent;
+}
+.template-referencia{
+    background-image: url(../img/phone2.png);
+    background-position: center;
+    background-size: cover;
+    width: 30rem;
+    height: 48rem;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 4rem;
+}
+.template-referencia img{
+    height: 100%;
+    width: 100%;
+}
+.template-referencia .carousel{
+    margin-top: 2rem;
+    height: 78.5%;
+    border-radius: 1.5rem;
+    margin-right: 3rem;
+    width: 17.8rem;
+}
+.content-ref{
+    justify-content: center;
+    align-items: flex-end;
+    height: 100vh;
+    display: flex;
+}
+.template-referencia .carousel .carousel-inner{
+    height: 100%;
+    border-radius: 1.5rem;
+}
+.template-referencia .carousel .carousel-inner .carousel-item{
+    height: 100%;
+    border-radius: 1.5rem;
+}
+.legenda{
+    font-family: 'Dosis';
+    font-size: 3rem;
+    padding-bottom: 0.5rem;
+    color: #ab3a3a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 0 4rem;
+    z-index: 1;
+}
+.legenda i{
+    color: #ab3a3a;
+    border: 1px solid #ab3a3a;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
+.legenda span strong{
+    font-size: 4rem;
+}
+.vantagens{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo-vantagens{
+    font-family: 'Dosis';
+    font-size: 3rem;
+    color: #ab3a3a;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.titulo-vantagens .linha-titulo{
+    width: 20rem;
+}
+.titulo-produtos{
+    font-family: 'Dosis';
+    font-size: 3rem;
+    color: #ab3a3a;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 4rem;
+}
+.item-vantagem{
+    background: white;
+    width: 100%;
+    min-height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0.2rem;
+    padding-bottom: 4rem;
+}
+.carousel button{
+    outline: 0;
+}
+.bloco-vantagens{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.bloco-vantagens .carousel{
+    width: 60%;
+}
+.body-vantagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header-vantagem i{
+    color: black;
+    font-size: 3rem;
+}
+.title-body-vantagem{
+    padding: 0.5rem 0 0.5rem 0;
+    font-family: 'Rubik';
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 80%;
+    border-bottom: 1px solid #e8e8e8;
+}
+.desc-body-vantagem{
+    font-family: 'montserrat';
+    color: rgb(108, 108, 108);
+    text-align: center;
+    padding: 1rem;
+}
+.desc-body-vantagem strong{
+    color: black;
+}
+.linha-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem 0;
+    width: 35rem;
+}
+.linha-titulo span:nth-child(1) {
+    height: 4px;
+    width: 45%;
+    background: black;
+    padding: 0;
+    border-radius: 10px;
+}
+.linha-titulo span:nth-child(2) {
+    height: 10px;
+    width: 10px;
+    background: black;
+    margin: 0 0.3rem;
+    border-radius: 10px;
+}
+.linha-titulo span:nth-child(3) {
+    height: 4px;
+    width: 45%;
+    background: black;
+    padding: 0;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    border-top: 1px solid rgba(0, 0, 0, 0.103);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 6rem 1rem;
+    flex-wrap: wrap;
+}
+.bloco-contato{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+    flex-wrap: wrap;
+}
+.bloco-sessoes{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.bloco-contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.bloco-sessoes span{
+    padding: 0.3rem 0;
+}
+.bloco-sessoes span a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+.bloco-sessoes span a:hover{
+    color: rgb(0, 0, 0);
+}
+.title-contato{
+    color: #4e4e4e;
+    font-size: 1.2rem;
+    font-family: 'Rubik';
+    padding-bottom: 0.5rem;
+}
+.bloco-contatos span{
+    padding: 0.3rem 0;
+}
+.bloco-contatos span a{
+    color:rgb(97, 97, 97);
+    text-decoration: none;
+}
+.bloco-contatos span a i{
+    padding-right: 0.5rem;
+    color: black;
+    font-size: 1.2rem;
+}
+.bloco-contatos span a label{
+    cursor: pointer;
+}
+/* HEADER */
+header{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transform: translateY(-100px);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    transition: 0.2s ease-out;
+}
+.sticky{
+    transform: translateY(0px);
+    
+    transition: 0.2s ease-out;
+}
+header nav{
+    width: 100%;
+    height: 5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: white;
+    border-bottom: 1px solid #00000012;
+    box-shadow: 0 0 20px #00000026;
+    padding: 0 2rem;
+}
+header nav .logo img{
+    object-fit: cover;
+    height: 3rem;
+}
+header nav ul{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-size: 1.2rem;
+}
+nav button {
+    display: none;
+    padding: 0rem;
+    background: none;
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    outline: none;
+    z-index: 999;
+    flex-direction: column;
+}
+nav button span {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    position: relative;
+    transition: 0.3s linear;
+}
+.nav-mobile{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    top: 5rem;
+    left: -100%;
+    max-width: 100%;
+    transition: 0.3s linear;
+    z-index: 10000;
+}
+.active{
+    color: #ab3a3a;
+}
+header nav ul li a:hover{
+    color: rgb(65, 65, 65);
+}
+@keyframes pulse {
+	0% {
+		transform: scale(0.93);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.93);
+	}
+}
+.voltar-ao-topo{
+    text-decoration: none;
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 1rem;
+    opacity: 0.6;
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+.voltar-ao-topo i{
+    border-radius: 10%;
+    color: white;
+    background: #ff7979bd;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 1s;
+}
+.tag-left {
+    opacity: 0;
+    transform: translate(50vh, 10vh);
+    transition: all 1s;
+}
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+@media (max-width: 1440px) {
+    .item-vantagem {
+        margin: 1rem; 
+    }
+    .referencias::after {
+        border-width: 740px 650px 0 0;
+    }
+    .template-referencia {
+        width: 27rem;
+        height: 40rem;
+    }
+    .template-referencia .carousel {
+        margin-top: 0.7rem;
+        height: 82.5%;
+        width: 15.8rem;
+    }
+}
+@media (max-width: 1366px) {
+    .descricao-informacao .linha-titulo {
+        width: 100%;
+    }
+    .informacao img{
+        object-fit: cover;
+        height: 26rem;
+    }
+    .descricao-informacao span {
+        font-size: 1.1rem;
+    }
+    .descricao-informacao .title {
+        font-size: 2.3rem;
+    }
+    .titulo-vantagens{
+        margin-bottom: 1rem;
+    }
+    .referencias::after {
+        border-width: 0;
+    }
+    .item-produto {
+        height: 35rem;
+    }
+    .header-item {
+        height: 16rem;
+    }
+    .title-item {
+        padding: 0.5rem 0;
+    }
+    .texto {
+        font-size: 3rem;
+    }
+}
+@media (max-width: 1024px) {
+    .descricao-informacao .linha-titulo {
+        justify-content: center;
+        width: 70%;
+    }
+    .legenda{
+        margin: 0;
+        font-size: 2.5rem;
+        align-items: center;
+        padding-top: 2rem;
+    }
+    .template-referencia {
+        margin: 0;
+    }
+    .referencias {
+        flex-direction: column;
+        min-height: 90vh;
+    }
+    .descricao-banner{
+        width: 100%;
+        padding: 2rem 0;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.153);
+        background: white;
+    }
+    .informacao{
+        flex-direction: column;
+    }
+    .informacao img {
+        height: 22rem;
+    }
+    .descricao-informacao {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .legenda span strong {
+        font-size: 3rem;
+    }
+    .legenda i {
+        transform: rotate(
+    90deg
+    );
+    margin-top: 0;
+    margin-top: 1rem;
+    }
+    .content-ref {
+        height: 70vh;
+    }
+    .template-referencia {
+        height: 31rem;
+        width: 20rem;
+    }
+    .template-referencia .carousel {
+        margin-top: 1.1rem;
+        height: 79.5%;
+        width: 11.5rem;
+        margin-right: 2rem;
+    }
+    .titulo-produtos {
+        margin-bottom: 2rem;
+    }
+    footer {
+        padding: 4rem 1rem;
+    }
+    .bloco-vantagens .carousel {
+        width: 80%;
+    }  
+    header nav ul li a {
+        font-size: 1rem;
+    }  
+    .produtos {
+        padding: 4rem 0;
+    }
+    .perguntas {
+        width: 50%;
+        margin: 0rem;
+    }
+    .item-produto{
+        margin: 0rem; 
+    }
+    .bloco-produtos {
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 800px) {
+    .texto {
+        font-size: 2.5rem;
+        padding-top: 1rem;
+        width: 80%;
+    }
+    .banner {
+        min-height: 90vh;
+    }
+    .descricao-informacao .title {
+        font-size: 2rem;
+    }
+    .desc-body-vantagem {
+        font-size: 0.9rem;
+    }
+    .title-body-vantagem {
+        font-size: 1.2rem;
+    }
+    .item-vantagem {
+        min-height: 22rem;
+    }
+    .titulo-vantagens {
+        width: 100%;
+    }
+    .item-produto {
+        width: 18rem;
+        height: 29rem;
+    }
+    .header-item {
+        height: 100%;
+    }
+    .produtos {
+        padding: 4rem 0;
+    }
+    .bloco-vantagens .carousel {
+        width: 70%;
+    }
+    footer {
+        padding: 2rem 4rem;
+    }
+    .bloco-contato {
+        flex-direction: column;
+    }
+    .bloco-contato .bloco-footer{
+        padding: 2rem 0;
+    }
+    .bloco-contato .bloco-footer:nth-child(2){
+        padding: 0;
+    }
+    header nav ul{
+        display: none;
+    }
+    nav button{
+        display: flex;
+    }
+    .nav-mobile.active {
+        overflow-y: scroll;
+        left: 0%;
+    }
+    nav button.active span:nth-child(1) {
+        transform: rotate(-45deg);
+        top: 11px;
+        margin-top: 1rem;
+    }
+    nav button.active span:nth-child(2) {
+        opacity: 0;
+    }
+    nav button.active span:nth-child(3) {
+        transform: rotate(45deg);
+        bottom: 18px;
+    }
+    header nav{
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+    .nav-mobile ul {
+        padding: 1rem;
+        margin-bottom: 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-mobile ul li {
+        list-style: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-mobile ul li a {
+        width: 100%;
+        text-decoration: none;
+        font-family: 'Dosis';
+        font-size: 1.5rem;
+        color: rgb(84, 84, 84);
+        text-align: center;
+        padding: 1.8rem 0;
+        font-weight: 600;
+    }
+    .title-item {
+        font-size: 1.2rem;
+    }
+    .desc-item{
+        font-size: 0.9rem;
+    }
+    .footer-item a {
+        font-size: 1.1rem;
+    }
+}
+@media (max-width: 720px) {
+    .bloco-produtos {
+        flex-direction: column;
+    }
+    .perguntas {
+        width: 60%;
+    }
+    .item-produto {
+        width: 60%;
+        height: 32rem;
+    }
+}
+@media (max-width: 600px) {
+    .logo img{
+        height: 5rem;
+    }
+    .texto {
+        font-size: 2rem;
+    }
+    .informacao img {
+        height: 20rem;
+    }
+    .informacao {
+        min-height: 90vh;
+    }
+    .vantagens{
+        min-height: 90vh;
+    }
+    .descricao-informacao .linha-titulo {
+        width: 90%;
+    }
+    .item-vantagem {
+        margin: 0rem;
+        min-height: 20rem;
+    }
+    .bloco-vantagens .carousel {
+        width: 100%;
+    }
+    .bloco-vantagens {
+        width: 90%;
+    }
+    .legenda{
+        width: 100%;
+    }
+    .linha-titulo{
+        width: 90%;
+    }
+}
+@media (max-width: 500px) {
+    .logo img {
+        height: 4rem;
+    }
+    .texto {
+        font-size: 1.8rem;
+        width: 90%;
+    }
+    .informacao img {
+        height: 16rem;
+    }
+    .descricao-informacao .linha-titulo {
+        width: 100%;
+    }
+    .descricao-informacao span {
+        font-size: 1rem;
+    }
+    .title-body-vantagem {
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    .desc-body-vantagem {
+        padding: 1rem 0 0rem 0;
+    }
+    .titulo-vantagens {
+        margin-bottom: 0rem;
+        font-size: 2rem;
+    }
+    .titulo-vantagens .linha-titulo {
+        width: 50%;
+    }
+    .legenda span strong {
+        font-size: 2.5rem;
+    }
+    .legenda {
+        font-size: 1.8rem;
+    }
+    .titulo-produtos{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .perguntas {
+        width: 80%;
+    }
+    .item-produto {
+        width: 80%;
+        height: 32rem;
+    }
+}
+@media (max-width: 420px) {
+    .informacao {
+        min-height: 80vh;
+    }
+    .banner {
+        min-height: 80vh;
+    }
+    .vantagens {
+        min-height: 80vh;
+    }
+    .banner {
+        background-position: left center;
+    }
+    .texto {
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+    .descricao-informacao .title {
+        font-size: 1.5rem;
+    }
+    .descricao-informacao span {
+        font-size: 0.9rem;
+    }
+    .legenda {
+        font-size: 1.5rem;
+    }
+    .legenda span strong {
+        font-size: 2rem;
+    }
+    .perguntas {
+        width: 90%;
+    }
+    .item-produto {
+        width: 90%;
+        height: 35rem;
+    }
+    footer {
+        padding: 0rem 2rem;
+    }
+    .title-contato {
+        font-size: 1rem;
+    }
+    .bloco-contatos span a {
+        font-size: 0.9rem;
+    }
+    .bloco-sessoes span {
+        font-size: 0.9rem;
+    }
+    .produtos {
+        padding: 2rem 0;
+    }
+    nav button span {
+        margin: 4px 0;
+    }
+    nav button {
+        width: 50px;
+    }
+    nav button.active span:nth-child(1) {
+        top: 4px;
+    }
+    header nav .logo img {
+        height: 2.5rem;
+    }
+    .nav-mobile ul li a {
+        font-size: 1.3rem;
+        padding: 1rem 0;
+    }
+    header nav {
+        height: 4rem;
+    }
+    .nav-mobile {
+        top: 4rem;
+    }
+}
+@media (max-width: 375px) {
+    .titulo-vantagens .linha-titulo {
+        width: 60%;
+    }
+    .item-vantagem {
+        padding-bottom: 3rem;
+    }
+    .legenda {
+        padding-bottom: 1rem;
+    }
+}
+@media (max-width: 350px) {
+    .texto {
+        width: 95%;
+        font-size: 1.5rem;
+    }
+}
