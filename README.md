@@ -1,4 +1,4 @@
-# PHPtest
+# Website Marketing Digital
 
 Web site relacionado a marketing digital (desenvolvendo para praticar).
 Utilizando das seguintes tecnologias: Html 5, Css 3, JavaScript, Bootstrap, jquery, Php 7, Laravel, entre outras...
